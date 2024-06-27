@@ -23,29 +23,13 @@ a:hover{
     text-align: center;
     padding: 14px 20px;
 }
-/* hero sction */
-.hero-section img{
-width: 100%;
+.icons img{
+    height: 100px;
 }
-.text-overlay{
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -100%); 
-    background-color: rgba(255, 255, 255, 0.542); 
-    color: rgb(99, 62, 45); 
-    padding: 10px 20px; 
-    text-align: center;
-    border-radius: 25px;
-}
-.text-overlay h3{
-    font-family: "Dancing Script", cursive;
-}
-.text-overlay h1{
-font-family: Garamond, serif;
-}
-.text-overlay:hover{
-    background-color: rgb(255, 255, 255); 
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
 }
 /* footer */
 footer {

@@ -1,0 +1,91 @@
+/* nav bar  */
+.navbar-logo img {
+
+    float: left;
+    height: 50px;
+}
+.navbar {
+    height: 50px;
+    background-color: #633E2D;
+    /* position: -webkit-sticky;
+    top: 0; */
+}
+a{
+ color: white;
+ padding: 14px 50px;
+ font-family: Garamond, serif;
+}
+a:hover{
+    background-color: white;
+    color: #633E2D;
+}
+.navbar-links{
+    text-align: center;
+    padding: 14px 20px;
+}
+/* hero section */
+.hero-section img{
+    width: 100%;
+    }
+    .text-overlay{
+        position: absolute;
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -100%); 
+        background-color: rgba(255, 255, 255, 0.542); 
+        color: rgb(99, 62, 45); 
+        padding: 10px 20px; 
+        text-align: center;
+        border-radius: 25px;
+    }
+    .text-overlay h1{
+    font-family: Garamond, serif;
+    }
+    .text-overlay:hover{
+        background-color: rgb(255, 255, 255); 
+    }   
+    .text-overlay h3{
+        font-family: "Dancing Script", cursive;
+    }
+    /* circles of destinations  */
+    .circle img {
+        -webkit-filter: grayscale(100%);
+	    filter: grayscale(100%);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+        border-radius: 100%;
+        height: 300px;
+        width: 300px;
+        margin: 50px;
+    }
+    .circle:hover img {
+        -webkit-filter: grayscale(0);
+	    filter: grayscale(0);
+    }
+    .circles1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .circle h3{
+        margin: 10px;
+        text-align: center;
+        font-family: "Dancing Script", cursive;
+        font-size: x-large;
+    }
+    .circles2{
+        display: flex;
+        justify-content: space-between;
+    }
+    /* footer */
+footer {
+    background-color: #633E2D;
+}
+
+footer p {
+    color: white;
+}
+footer img{
+    float: top left;
+    height: 200px;
+    width: 200px;
+}
